@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Práctica 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="inicio">
+      <h1>¡Tiempo para ver el vídeo!</h1>
+      <p id="crono">Cuenta atrás: 5</p>
+    </div>
+    <div id="notification">
+      <br />
+      <video id="vid" autoplay muted>
+        <source
+          src="https://aules.edu.gva.es/fp/pluginfile.php/10026701/mod_resource/content/1/example_MP4.mp4"
+          type="video/mp4"
+        />
+        Tu navegador no soporta el elemento <code>video</code>.
+      </video>
+      <div id="tiempoVid"></div>
+    </div>
+    <script src="practica1.js"></script>
+  </body>
+</html>
